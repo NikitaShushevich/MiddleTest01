@@ -1,2 +1,5 @@
 hello this is the software which counts words and sentences. 
 sentence two.
+sentence three.
+sentence four.
+sentence five.
