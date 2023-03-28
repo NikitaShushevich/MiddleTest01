@@ -3,7 +3,7 @@ def count_words(text):
     return len(words)
 
 def count_sentences(text):
-    sentences = text.split('. ') + text.split('! ') + text.split('? ') + text.split('... ')
+    sentences = text.split('.') + text.split('!') + text.split('?') + text.split('...')
     return len(sentences)
 
 def count_words_and_sentences(file_path):
