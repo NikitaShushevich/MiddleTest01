@@ -1,9 +1,12 @@
+import re
+
+
 def count_words(text):
     words = text.split()
     return len(words)
 
 def count_sentences(text):
-    sentences = text.split('.') + text.split('!') + text.split('?') + text.split('...')
+    sentences = re.split(r'[.!?]+', text)
     return len(sentences)
 
 def count_words_and_sentences(file_path):
